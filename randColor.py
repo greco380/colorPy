@@ -24,9 +24,11 @@ t1.goto(-200,0)
 #pen down to draw
 t1.down()
 #pen thickness
-t1.width(5)
-#Hide turtle icon???
+t1.width(10)
+#Hide turtle icon
 #t1.hideturtle()
+#Set turtle speed to Max speed
+t1.speed(0)
 
 #loop for graphics to be built
 for i in range(9001):
@@ -36,5 +38,5 @@ for i in range(9001):
     t1.color(colorChoice)
     #move turtle forward
     t1.forward(400)
-    #have turtle turn 180 degrees (anything over 180 works)
+    #have turtle turn 180 degrees (x>180 is clockwise x<180 is counter clockwise)
     t1.right(213)
