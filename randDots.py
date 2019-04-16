@@ -12,7 +12,7 @@ setup()
 t1 = Turtle()
 
 #List of colors that the program will have to choose from
-colors = ["red", "green", "blue", "yellow", "orange", "black", "purple"]
+colors = ["red", "green", "blue", "yellow", "orange", "black", "purple", "teal", "pink"]
 
 #random capabilities
 import random
