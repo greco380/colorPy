@@ -26,12 +26,15 @@ t1.down()
 #pen thickness
 t1.width(5)
 #Hide turtle icon???
-t1.hideturtle()
+#t1.hideturtle()
 
 #loop for graphics to be built
 for i in range(9001):
     #choose random color
     colorChoice = random.choice(colors)
-    #make turtle take 
+    #make turtle take on random color
     t1.color(colorChoice)
-
+    #move turtle forward
+    t1.forward(400)
+    #have turtle turn 180 degrees (anything over 180 works)
+    t1.right(213)
