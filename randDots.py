@@ -17,12 +17,16 @@ colors = ["red", "green", "blue", "yellow", "orange", "black", "purple", "teal",
 #random capabilities
 import random
 
-
 #TO DO: Change paint to random size circles at random points on the screen
-# void drawObstacle() {
-#     double x = this.rand.nextDouble() * this.dimensions.width;
-#     double y = this.rand.nextDouble() * this.dimensions.height;
-# }
+
+while True:
+    #Where the circles will be placed on the screen
+    x = rand.nextDouble(this.dimensions.width)
+    y = rand.nextDouble(this.dimensions.height)
+
+    #How big the circles will randomly be
+    circleSize = random.randint(1,200)
+
 
 #pick up pen so that there are individual lines
 t1.up()
