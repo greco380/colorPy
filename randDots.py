@@ -24,7 +24,7 @@ import random
 while True:
     #Where the circles will be placed on the screen
     x = random.randint(-300,300)
-    y = random.randint(-300,300)
+    y = random.randint(-300,250)
 
     #pen thickness
     t1.width(7)
