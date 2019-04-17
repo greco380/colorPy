@@ -29,6 +29,9 @@ while True:
     #pen thickness
     t1.width(7)
 
+    #Hide turtle icon
+    t1.hideturtle()
+
     #How big the circles will randomly be
     circleSize = random.randint(1,100)
 
